@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+a {
+  color: inherit; 
+  text-decoration: inherit;
+}
+
+body {
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+  min-height: 100vh;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 10px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+}
+.pointer {
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.t-white {
+  color: white;
+}
+
+.t-important {
+  color: var(--important);
+}
+
+.t-success {  
+  color: var(--success);
+}
+
+.t-info {  
+  color: var(--info);
+}
+
+.t-warning {  
+  color: var(--warning);
+}
+
+.t-danger {  
+  color: var(--danger);
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w50 {
+  width: 50%;
+}
+.t10{
+  font-size: 1.1rem;
+}
+.t20{  
+  font-size: 1.2rem;
+}
+.t30{  
+  font-size: 1.3rem;
+}
+.t40{  
+  font-size: 1.4rem;
+}
+.t50{  
+  font-size: 1.5rem;
+}
+.t60{  
+  font-size: 1.6rem;
+}
+.t70{  
+  font-size: 1.7rem;
+}
+.t80{  
+  font-size: 1.8rem;
+}
+.t90{  
+  font-size: 1.9rem;
+}
+.t100{  
+  font-size: 2rem;
+}
+:root {
+  --success: #2ecc71;
+  --danger: #e74c3c;
+  --warning: #f39c12;
+  --info: #3498db;
+  --important: #9b59b6;
+}
